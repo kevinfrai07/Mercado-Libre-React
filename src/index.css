@@ -1,0 +1,107 @@
+nav{
+  background-color: #ffe600;
+}
+
+.categorias{
+  margin-top: 16px;
+  margin-block-end: 16px;
+}
+
+.search{
+  cursor: pointer;
+}
+
+/* estilos breadcrumb*/
+
+.breadcrumb {
+  background: none;
+  font-size: 0.8em;
+  margin: 0;
+  margin-block-end: 16px;
+}
+.breadcrumb a, .breadcrumb span {
+  color: darkgrey;
+}
+.breadcrumb a:hover, .breadcrumb span:hover {
+  color: dimgrey;
+  text-decoration: none;
+}
+.breadcrumb li {
+  list-style: none;
+  float: left;
+  margin: 5px;
+}
+.breadcrumb li:last-child {
+  margin-right: 20px;
+}
+.breadcrumb li::after {
+  content: " >";
+  color: darkgrey;
+}
+.breadcrumb li:last-child::after {
+  content: "";
+}
+/* estilos items*/
+
+.productitems{
+  height: 180px;
+  width: 180px;
+  margin: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.categoriasitems{
+  font-size: 14px;
+  margin-top: 16px;
+}
+.text1items{
+  font-size: 24px;
+}
+.text2items{
+  font-size: 18px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+.text3items{
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* estilos item*/
+
+.product{
+  width: 680px;
+  height: 680px;
+  margin: 32px;
+}
+.text1{
+  font-size: 14px;
+  margin-top: 32px;
+}
+.text2{
+  font-size: 24px;
+  margin-top: 6px;
+}
+.text3{
+  font-size: 46px;
+  margin-top: 16px;
+  margin-block-end: 24px;
+}
+.text4{
+  font-size: 28px;
+}
+.text5{
+  font-size: 16px;
+  margin-top: 24px;
+  margin-block-end: 24px;
+}
+.description{
+  padding: 0px;
+  margin-left: 32px;
+}
+.div-btn{
+  margin-right: 32px;
+}
+.btn-shop{
+  background-color: #3483fa;
+}
